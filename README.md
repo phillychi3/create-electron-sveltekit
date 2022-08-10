@@ -1,5 +1,5 @@
 # create sveltekit+electron
-![svelteimage](https://github.com/phillychi3/create-electron-sveltekit/blob/master/static/svelte.electron.png?raw=true)
+![svelteimage](https://github.com/phillychi3/create-electron-sveltekit/blob/master/static/svelte.electron_transparent.png?raw=true)
 ## Developing
 
 ```bash
