@@ -1,11 +1,12 @@
 <script>
-	let count = 0;
+	let count = 0
 
-	function Click(){
-		count += 1;
+	function Click() {
+		count += 1
 	}
 </script>
-<img src="/svelte.electron.png" width="200">
+
+<img src="/svelte.electron.png" width="200" alt="Svelte logo" />
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 <button on:click={Click}>
@@ -13,4 +14,3 @@
 </button>
 
 <a href="/testpage">go to other page</a>
-

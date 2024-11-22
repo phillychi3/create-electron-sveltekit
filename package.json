@@ -4,16 +4,16 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"electron": "electron main.cjs",
+		"electron": "electron main.js",
 		"electron-dev": "concurrently \"vite dev\" \"npm run electron\"",
 		"electron-build": "npm run build && electron-builder"
 	},
-	"main": "main.cjs",
+	"main": "main.js",
 	"build": {
 		"icon": "static/favicon.png",
 		"productName": "electron-sveltekit-example",
 		"files": [
-			"main.cjs",
+			"main.js",
 			"static/**/*",
 			{
 				"from": "build",
@@ -30,21 +30,22 @@
 		"mac": {}
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^1.0.0-next.64",
-		"@sveltejs/kit": "1.0.0-next.520",
-		"concurrently": "^7.3.0",
-		"electron": "^20.0.1",
-		"electron-builder": "^23.3.3",
-		"prettier": "^2.6.2",
-		"prettier-plugin-svelte": "^2.7.0",
-		"svelte": "^3.44.0",
-		"svelte-check": "^2.7.1",
-		"typescript": "^4.7.4",
-		"vite": "^3.0.0"
+		"@sveltejs/adapter-auto": "^3.3.1",
+		"@sveltejs/kit": "^2.8.1",
+		"@sveltejs/vite-plugin-svelte": "^4.0.1",
+		"concurrently": "^9.1.0",
+		"electron": "^32.2.5",
+		"electron-builder": "^25.1.8",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.3.2",
+		"svelte": "^5.2.7",
+		"svelte-check": "^4.1.0",
+		"typescript": "^5.6.3",
+		"vite": "^5.4.11"
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.39",
-		"electron-serve": "^1.1.0"
+		"@sveltejs/adapter-static": "^3.0.6",
+		"electron-serve": "^2.1.1"
 	}
 }
